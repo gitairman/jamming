@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchResults({resultsToDisplay}) {
+function SearchResults({ resultsToDisplay }) {
     const formattedSearchResults = resultsToDisplay.map((result) => (
 
     )
@@ -8,9 +8,9 @@ function SearchResults({resultsToDisplay}) {
 
 
     return (
-        <div>
-            <Tracklist arrayOftracks={formattedSearchResults}/>
-        </div>
+        <>
+            <Tracklist tracksToDisplay={formattedSearchResults} />
+        </>
     );
 }
 

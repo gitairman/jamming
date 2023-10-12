@@ -37,7 +37,6 @@ function SearchBar() {
                 </form>
             </div>
             <SearchResults resultsToDisplay={searchResults} />
-
         </>
     );
 }
