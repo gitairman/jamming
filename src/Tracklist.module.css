@@ -1,0 +1,7 @@
+.song {
+    list-style: none;
+    margin-left: -2.5rem;
+    border: solid white;
+    background-color: lightgray;
+    color: darkblue;
+}
